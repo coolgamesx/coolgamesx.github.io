@@ -1,6 +1,6 @@
-# CoolGamesX
+# cool games x
 
-**Main site:**  
+**main site:**  
 https://coolgamesx.github.io
 
 ---
@@ -8,7 +8,7 @@ https://coolgamesx.github.io
 A simple website that hosts games and other cool stuff.  
 They’re actually good and have nearly no ads.
 
-Please don’t sue me.  
-I’m too lazy to add credits.
+please don’t sue me.  
+i’m too lazy to add credits.
 
 ---
