@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cool games x</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0b0b0b;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        header {
+            background: #151515;
+            padding: 25px;
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .game {
+            background: #1a1a1a;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.3s;
+        }
+        .game:hover {
+            border-color: #4db8ff;
+            transform: translateY(-3px);
+        }
+        .game-title {
+            font-size: 1.6rem;
+        }
+        .play-btn {
+            background: #4db8ff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .play-btn:hover {
+            background: #80ccff;
+        }
+    </style>
+</head>
+<body>
+
+<header>Games</header>
+
+<div class="container">
+
+    <div class="game">
+        <div class="game-title">Ultrakill Prelude</div>
+        <a class="play-btn" href="games/ultrakill-prelude/index.html">Play</a>
+    </div>
+
+    <div class="game">
+        <div class="game-title">Superhot Demo</div>
+        <a class="play-btn" href="games/superhot-demo/index.html">Play</a>
+    </div>
+
+</div>
+
+</body>
+</html>
